@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{2C6DFFAB-2154-5B17-6EAE-354CD0204F6D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/unity3d/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/unity3d/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Controller Tester\Scripts\DetectUnknownControllerMappings.cs" />
+     <Compile Include="Assets\Elemental Free\Scripts\GE_ELF_Demo.cs" />
+     <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
+     <Compile Include="Assets\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
+     <Compile Include="Assets\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
+     <Compile Include="Assets\GE Common Assets\Scripts\GE_UIResponder.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo05.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
+     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+     <Compile Include="Assets\Lux 2.01 Personal\Lux Scripts\Lux TexturePostprocessor\LuxTexturePostprocessor.cs" />
+     <Compile Include="Assets\Lux 2.01 Personal\Lux Scripts\LuxAreaLight.cs" />
+     <Compile Include="Assets\Lux 2.01 Personal\Lux Scripts\LuxAttributes.cs" />
+     <Compile Include="Assets\Lux 2.01 Personal\Lux Scripts\LuxDynamicWeather.cs" />
+     <Compile Include="Assets\Lux 2.01 Personal\Lux Scripts\LuxSetup.cs" />
+     <Compile Include="Assets\Materials\MirrorReflection.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\AnimatedLight.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\DestroyAfterTime.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\DestroyOnParticlesDead.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\DestroyOnTrailsDestroyed.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\IgnoreTimeScale.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\ParticleSystems.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\ParticleSystemsSimulationSpeed.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\PerlinNoise.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\RendererSortingOrder.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\Rotator.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\TrailRenderers.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\TransformNoise.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\DemoManager.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\FPSDisplay.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\FPSDisplay2.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\FPSTest.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\FollowMouse.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\LoopingParticleSystemsManager.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\OneshotParticleSystemsManager.cs" />
+     <Compile Include="Assets\Mirza Beig\Particle Systems\_Common\Scripts\_Demo\ParticleManager.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\CameraTarget.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectController.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectDemo.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\EffectShaderPropertyStr.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\RenderEffect.cs" />
+     <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
+     <Compile Include="Assets\PowerUp\Scripts\CustomizablePowerUp.cs" />
+     <Compile Include="Assets\PowerUp\Scripts\PowerUpManager.cs" />
+     <Compile Include="Assets\PowerUp\Scripts\PowerUpRotation.cs" />
+     <Compile Include="Assets\PowerUp\Scripts\ScaleParticles.cs" />
+     <Compile Include="Assets\PowerUp\Scripts\TakeablePowerUp.cs" />
+     <Compile Include="Assets\PowerUp\Scripts\Utility\Singleton.cs" />
+     <Compile Include="Assets\Prototype Materials\ShowcaseMovement.cs" />
+     <Compile Include="Assets\Scripts\Buttons\Button_menu.cs" />
+     <Compile Include="Assets\Scripts\Create_warriors.cs" />
+     <Compile Include="Assets\Scripts\Get_button_joy.cs" />
+     <Compile Include="Assets\Scripts\Get_button_keyboard.cs" />
+     <Compile Include="Assets\Scripts\Get_button_mouse.cs" />
+     <Compile Include="Assets\Scripts\MovePlayer.cs" />
+     <Compile Include="Assets\Scripts\Statistics.cs" />
+     <Compile Include="Assets\Scripts\___old.cs" />
+     <Compile Include="Assets\Scripts\add_broken_war_to_list.cs" />
+     <Compile Include="Assets\Scripts\anim_player.cs" />
+     <Compile Include="Assets\Scripts\deactive_weapons.cs" />
+     <Compile Include="Assets\Scripts\maxCamera.cs" />
+     <Compile Include="Assets\Scripts\moveVariorsToPlayer.cs" />
+     <Compile Include="Assets\Scripts\shooting.cs" />
+     <Compile Include="Assets\Scripts\shooting_create_bullets.cs" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard FullFeatures.shader" />
+     <None Include="Assets\Mirza Beig\README - Inferno VFX.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Features\LuxTessellation.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Skin Shaders\AutoLight.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Skin Shaders\Lux Skin Standard Lighting.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Standard Shader\Lux_StandardSpecular.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Standard Shader\AutoLight.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\_Lux ShaderProperties.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Demos\Helper\Typo\Font-ztest.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux BRDFs\LuxAnisoBRDF.cginc" />
+     <None Include="Assets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA3.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard Tessellation DynamicWeather MixMapping.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Anisotropic Shaders\AutoLight.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Features\LuxDiffuseScattering.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard WavingGrass.shader" />
+     <None Include="Assets\Standard Assets\Effects\ScreenSpaceReflection\Resources\ScreenSpaceReflection.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard SimpleMetallic.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\AutoLight.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Standard Shader\Lux_StandardMetallic.shader" />
+     <None Include="Assets\Materials\Mirror Reflection2.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Lighting\LuxStandardPBSLighting.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Skin Shaders\_Lux Skin Shader Readme.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard DeferredDecal FullFeatures.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Features\LuxDynamicWeather.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard FullFeatures DoubleSided Cutout.shader" />
+     <None Include="Assets\Standard Assets\Effects\AmbientOcclusion\Resources\AmbientOcclusion.cginc" />
+     <None Include="Assets\Standard Assets\Effects\DepthOfField\Resources\DepthOfField.shader" />
+     <None Include="Assets\Standard Assets\Effects\ScreenSpaceReflection\Resources\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Demos\Art\Textures\LASciFiPanel - free from asset store\LASciFiPanel\_ProductFeatures.txt" />
+     <None Include="Assets\Standard Assets\Effects\AmbientOcclusion\Resources\AmbientOcclusion.shader" />
+     <None Include="Assets\Standard Assets\Effects\AntiAliasing\FXAA\Resources\FXAA.shader" />
+     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramRender.shader" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux BRDFs\LuxStandardBRDF.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Resources\Lux Personal Internal-DeferredReflections.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Standard Shader\LuxStandardMeta.cginc" />
+     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard Terrain AddPass.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Demos\Art\Textures\LASciFiPanel - free from asset store\LASciFiPanel\_Instructions.txt" />
+     <None Include="Assets\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Anisotropic Shaders\Anisotropic Hair.shader" />
+     <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux BRDFs\LuxSkinBRDF.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard Tessellation DynamicWeather.shader" />
+     <None Include="Assets\KY_effects\MagicEffectsPackFree\ReadMe.txt" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+     <None Include="Assets\Lux 2.01 Personal\_Lux 01 Readme.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Standard Shader\LuxStandardShadow.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Anisotropic Shaders\Anisotropic Base.shader" />
+     <None Include="Assets\Standard Assets\Effects\AntiAliasing\SMAA\Resources\SMAA.cginc" />
+     <None Include="Assets\Elemental Free\Readme.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Setup\LuxStructs.cginc" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard Terrain Base.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Standard Shader\Lux_TranslucentSpecular.shader" />
+     <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Standard Shader\Lux_StandardCore.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\_Lux 03 ChangeLog.txt" />
+     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\TonemappingColorGrading.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Includes\Lux TerrainSplatmapCommon.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Translucent Shaders\Translucent DynamicWeather.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Translucent Shaders\AutoLight.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Lighting\LuxTranslucentPBSLighting.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Demos\Art\Textures\LASciFiPanel - free from asset store\LASciFiPanel\_ChangeLog.txt" />
+     <None Include="Assets\Lux 2.01 Personal\_Lux 02 Documentaton.txt" />
+     <None Include="Assets\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard FullFeatures CustomSnowMask.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Utils\LuxUtils.cginc" />
+     <None Include="Assets\Standard Assets\Effects\Bloom\Resources\Bloom.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Show Vertex Colors.shader" />
+     <None Include="Assets\Standard Assets\Effects\DepthOfField\Resources\MedianFilter.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Scripts\Lux TexturePostprocessor\_Lux TexturePostprocessor Readme.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Lighting\LuxAnisoMetallicPBSLighting.cginc" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard DeferredDecal Parallax.shader" />
+     <None Include="Assets\GE Common Assets\Readme.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Resources\Lux Personal Internal-DeferredShading.shader" />
+     <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Setup\LuxInputs.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Lighting\LuxAreaLights.cginc" />
+     <None Include="Assets\Standard Assets\Effects\DepthOfField\Resources\BokehSplatting.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Translucent Shaders\Translucent Base.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard Terrain FirstPass.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Standard Shaders\Standard Refraction Geometry.shader" />
+     <None Include="Assets\Standard Assets\Effects\LensAberrations\Resources\LensAberrations.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Config.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Features\LuxParallax.cginc" />
+     <None Include="Assets\Standard Assets\Effects\TonemappingColorGrading\Resources\HistogramCompute.compute" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux custom Skin Shaders\Lux Skin.shader" />
+     <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Resources\Lux Deferred Library.cginc" />
+     <None Include="Assets\Lux 2.01 Personal\Lux Shaders\Lux Core\Lux Lighting\LuxSkinPBSLighting.cginc" />
+     <None Include="Assets\Materials\Mirror Reflection.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/unity3d/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="GETween">
+ <HintPath>D:/GitRepo/kill_2/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+ </Reference>
+ <Reference Include="GUIAnimatorFREE">
+ <HintPath>D:/GitRepo/kill_2/Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E36CE608-208D-E356-2D5D-4BB0C873C336}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
