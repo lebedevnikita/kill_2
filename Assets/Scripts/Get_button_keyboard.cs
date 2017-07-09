@@ -43,7 +43,7 @@ public class Get_button_keyboard : MonoBehaviour {
                     string first_str;
                    // first_str = k.ToString().ToLower();
                     first_str = k.ToString();
-                    //Debug.Log(k.ToString());
+                    Debug.Log(k.ToString());
                     //Debug.Log(KeyCode.GetValues(typeof(KeyCode)));
 
 
